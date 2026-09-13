@@ -248,6 +248,7 @@ export default function App() {
             </div>
           )}
         </section>
+        
 
         <section id="projects" className="projects container">
           <div className="mini-project">
@@ -259,6 +260,7 @@ export default function App() {
         </section>
       </main>
       <Footer />
+
     </>
   );
 }

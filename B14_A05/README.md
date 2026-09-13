@@ -31,6 +31,7 @@ npm run dev
 
 Then open the local Vite URL shown in the terminal.
 
+
 ## 🧠 React Questions
 
 ### 1. What is JSX, and why is it used in React?
@@ -46,7 +47,7 @@ Props are data passed from a parent to a child component. State is data managed 
 `useEffect` runs side effects after rendering. It is used here to simulate/facilitate the JSON loading step and update the technology list after the component mounts.
 
 ### 5. Why does every item in a `.map()` list need a unique `key` prop?
-React uses the key to identify which list item changed, was added, or was removed. A stable unique key helps React update the UI efficiently.
+React uses the key to identify which list item changed, was added, or was removed. A stable unique key helps React update the UI efficiently.   
 
 ### 6. What is conditional rendering? Show one place you used it.
 Conditional rendering means showing different UI depending on a condition. The stack panel shows an empty-state message when `stack.length === 0`; otherwise it shows selected technologies.
